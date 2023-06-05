@@ -22,13 +22,13 @@ function addInCartMessage(title, price) {
 }
 
 function addInCartCountChange(value) {
+    let newValue = oldValue
 
     // Задание №1.2. Увеличение количества в корзине
     let oldValue = value;
 
-    let newValue = oldValue;
     newValue +1
-    console.log(newValue + 1);
+    console.log(newValue);
 
     // Конец решения задания №1.2.
 
@@ -42,8 +42,6 @@ function addInCartSumChange(sum, delta) {
     // Задание №1.3. Увеличение суммы в корзине
 
     let newSum;
-    let oldSum = sum;
-    let difference = delta;
     newSum = oldSum + difference;
     let newSumText = newSum + ' ₽';
     newSumText = `${newSum} ₽`;
