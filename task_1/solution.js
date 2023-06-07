@@ -5,15 +5,13 @@ function addInCartMessage(title, price) {
     // Задание №1.1. Оповещение о добавлении в корзину
 
     let message;
-    let productName = title;
-    let productPrice = price;
     message = productName;
     message += ' ';
-    message += ' за';
+    message += ' за ';
     message += ' ';
     message += productPrice;
     message +=' ';
-    message += ' теперь в корзине!';
+    message += ' теперь в корзине! ';
     console.log(message); 
 
     // Конец решения задания №1.1.
@@ -21,12 +19,14 @@ function addInCartMessage(title, price) {
     return message;
 }
 
+
+
 function addInCartCountChange(value) {
-    let newValue = oldValue
 
     // Задание №1.2. Увеличение количества в корзине
     let oldValue = value;
-    let newValue = oldValue + 1; 
+    let newValue = oldValue;
+    newValue = oldValue + 1;  
     console.log(newValue);
 
 
