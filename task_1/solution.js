@@ -24,9 +24,11 @@ function addInCartMessage(title, price) {
 function addInCartCountChange(value) {
 
     // Задание №1.2. Увеличение количества в корзине
+    let value;
     let oldValue = value;
     let newValue = oldValue; 
-    console.log(newValue +1);
+    newValue = oldValue + 1;
+    console.log(newValue);
 
 
     // Конец решения задания №1.2.
