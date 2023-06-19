@@ -18,7 +18,7 @@ function renderProductsCards(json) {
     let lenght = products.lenght;
     console.log(products.lenght);
     for (let i = 0; i < length; i += 1) {
-        console.log(addProduct(products[i]););
+        console.log(addProduct(products[i]));
      }
 
 }
