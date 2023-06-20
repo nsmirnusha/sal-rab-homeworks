@@ -13,12 +13,11 @@ function parseProducts(json) {
 }
 
 function renderProductsCards(json) {
-    console.log(clearProducts());
+    clearProducts();
     let products = parseProducts(json);
-    let lenght = products.lenght;
-    console.log(products.lenght);
+    let length = products.lenght;
     for (let i = 0; i < length; i += 1) {
-        console.log(addProduct(products[i]));
+        addProduct(products[i]);
      }
 
 }
